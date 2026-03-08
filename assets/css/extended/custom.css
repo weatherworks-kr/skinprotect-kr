@@ -1,0 +1,56 @@
+/* skinprotect.kr: 포레스트 그린 & 에메랄드 — 전문적 의료/과학 느낌 */
+:root {
+    --primary: #064e3b;
+    --secondary: #10b981;
+    --bg-primary: #f0fdf4;
+    --text-primary: #052e16;
+}
+
+.post-title {
+    color: var(--primary) !important;
+}
+
+.post-content a {
+    color: #047857;
+    border-bottom: 2px solid var(--secondary);
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.post-content a:hover {
+    color: var(--secondary);
+}
+
+.ltr .entry-cover {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(6, 78, 59, 0.1);
+}
+
+header .nav {
+    border-bottom: 3px solid var(--secondary);
+}
+
+.toc a {
+    color: var(--primary) !important;
+}
+
+.entry .entry-header h2 {
+    color: var(--primary);
+}
+
+footer {
+    border-top: 3px solid var(--secondary);
+}
+
+.post-content hr {
+    border: none;
+    height: 3px;
+    background: linear-gradient(90deg, var(--primary), var(--secondary), transparent);
+}
+
+/* 의료 정보 느낌 인용문 */
+.post-content blockquote {
+    border-left: 4px solid var(--secondary);
+    background: rgba(16, 185, 129, 0.06);
+}
